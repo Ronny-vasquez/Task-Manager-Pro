@@ -1,0 +1,31 @@
+<html>
+<head>
+  <title>Reporte de Pruebas</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    .success { color: green; }
+    .fail { color: red; }
+    img { max-width: 300px; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Reporte de Pruebas</h1>
+  <ul>
+
+      <li>
+        <h2>Prueba de Login Fallido: <span class="fail">Fallo</span></h2>
+        <p>Error inesperado: Waiting for element to be located By(css selector, .alert)
+Wait timed out after 3021ms</p>
+        <img src="login_fail_error.png" alt="Captura de Error en Login Fallido">
+      </li>
+    
+          <li>
+            <h2>Prueba de Login Exitoso: <span class="success">Éxito</span></h2>
+            <p>Redirigido correctamente a /crud.</p>
+            <img src="login_success.png" alt="Captura de Login Exitoso">
+          </li>
+        
+  </ul>
+  </body>
+  </html>
+  
